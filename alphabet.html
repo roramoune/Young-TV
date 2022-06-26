@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+        <title>YoungTV - Alphabet</title>
+        <meta name="author" content="Ramoune Roberts">
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/icon.png">
+        <script src="script.js"></script>
+        
+    </head>
+
+
+    <body>
+        <table width="100%" >
+            <th ></th>
+
+            <th width="75%">
+                <div id="thesection">
+            
+
+                <div id="navigation">
+                    <table>
+                        <img src="./img/icon.png" id="icon" width="120px" height="100px"><br>
+
+                        <a href="index.html"><button id="navbutton" > Home</button></a>
+                        <a href="alphabet.html"><button id="navbutton"disabled> Alphabet</button></a>
+                        <a href="numbers.html"><button id="navbutton"> Numbers</button></a>
+                        <a href="games.html"><button id="navbutton"> Games</button></a>
+                    </table>
+                </div>
+                
+                <br><br><br>
+                <h2> Vidoes of the full alphabet</h2>
+                <br><br><br>
+                <table id="alphatable" width="100%">
+                    <tr>
+                        <td></td>
+                        <td><iframe width="400" height="300" src="https://www.youtube.com/embed/neItURLvyIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="400" height="300" src="https://www.youtube.com/embed/ptk68qC1woI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td><iframe width="400" height="300" src="https://www.youtube.com/embed/xrjVALwDx_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                        <td></td>
+                    </tr>
+                   
+                </table>
+                <br><br><br>
+
+                <h2>Individual Letter Review</h2>
+                <label for="letter">Choose a letter:</label>
+
+                <select id="letter" onchange="doletter()">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+                <option value="K">K</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="N">N</option>
+                <option value="O">O</option>
+                <option value="P">P</option>
+                <option value="Q">Q</option>
+                <option value="R">R</option>
+                <option value="S">S</option>
+                <option value="T">T</option>
+                <option value="U">U</option>
+                <option value="V">V</option>
+                <option value="W">W</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+                </select>
+                
+                <p id="playletter">
+                    <iframe id="iframe" width="800" height="630" src="https://www.youtube-nocookie.com/embed/eEmXHJX7Wb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+        
+
+                <br><br><br>
+                <p id="foot"> © 2022 Ramoune Roberts</p>
+            </div>
+            </th>
+
+            <th></th>
+        </table>
+    </body>
+
+</html>
